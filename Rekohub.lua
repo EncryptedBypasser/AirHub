@@ -1,8 +1,8 @@
 --[[
 
-	AirHub by Exunys © CC0 1.0 Universal (2023)
+	AirHub by Peter © CC0 1.0 Universal (2023)
 
-	https://github.com/Exunys
+	https://github.com/EncryptedBypasser
 
 ]]
 
@@ -12,7 +12,7 @@ local loadstring, getgenv, setclipboard, tablefind, UserInputService = loadstrin
 
 --// Loaded check
 
-if AirHub or AirHubV2Loaded then
+if RekoHub or Reko Hub then
     return
 end
 
@@ -917,16 +917,16 @@ do
 		end
 
 		Library.Unload()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/AirHub-V2/main/src/Main.lua"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/EncryptedBypasser/poop/5c27d4675747b609d352e927d4bc5d610d566031/Main.lua"))()
 	end
 
 	game.StarterGui:SetCore("SendNotification", {
-		Title = "🎆  AirHub V2  🎆",
-		Text = "Would you like to use the new AirHub V2 script?",
+		Title = " Reko Hub ",
+		Text = "Would you like to use the new Reko Hub script?",
 		Button1 = "Yes",
 		Button2 = "No",
 		Duration = 1 / 0,
-		Icon = "rbxassetid://6238537240",
+		Icon = "https://raw.githubusercontent.com/datagemgiffy/JewleryShop/refs/heads/main/Logo.png",
 		Callback = Aux
 	})
 end
